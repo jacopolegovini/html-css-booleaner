@@ -2,7 +2,7 @@
     font-family: Roboto, Helvetica, sans-serif;
 }
 
-body {
+body:not(#header-img2) {
     max-width: 4000px;
     width: 1100px;
     margin: auto;
@@ -21,16 +21,13 @@ body {
 } */
 
 #header-img2 {
-    background-color: rgb(14, 168, 219);
+    background-color: rgb(21, 170, 219);
     background-image: url(img/pattern.png);
     background-position: center;
-    background-size: 80%;
+    background-size: 100%;
     background-repeat: repeat-x;
     padding: 0px;
-    height: auto; 
-    width: auto; 
-    max-width: 4000px; 
-    max-height: 4000px;
+    width: 1100px;
 }
 
 h1 {
