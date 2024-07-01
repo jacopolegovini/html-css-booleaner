@@ -34,7 +34,9 @@ address, #tim-berners-lee-description, h1, main, footer {
     background-position: center;
     background-size: 50%;
     background-repeat: repeat-x;
-    padding-left: 19.51%;
+    padding-left: 19%;
+    margin-bottom: 30px;
+}
 
 h1 {
     margin-bottom: 5px;
