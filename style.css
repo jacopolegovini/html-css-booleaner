@@ -1,0 +1,13 @@
+body {
+    border: 2px dashed red;
+    max-width: 1000px;
+    width: 1000px;
+}
+
+#header-img {
+    background-color: lightblue;
+}
+
+figure {
+    margin: 0;
+}
