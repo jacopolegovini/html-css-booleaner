@@ -18,8 +18,9 @@ body {
 }
 
 #header-img2 {
-    background-image: url(img/logo.svg);
-    padding: 200px
+    /* background-image: url(img/logo.svg); */
+    background-color: white;
+    padding-top: 50px
 }
 
 h1 {
@@ -64,8 +65,16 @@ thead {
     background-color: lightcyan;
 }
 
-td {
-    width: 33.333333;
+.td1 {
+    width: 25%;
+}
+
+.td2 {
+    width: 25%;
+}
+
+.td50 {
+    width: 50%;
 }
 
 h3 {
@@ -84,7 +93,7 @@ h3 {
     background-repeat: no-repeat;
 }
 
-#footer-lorem {
+.footer-lorem {
     color: white;
     font-weight: 600;
     font-size: 18;
