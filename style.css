@@ -6,14 +6,34 @@ body {
     border: 2px dashed red;
     max-width: 4000px;
     width: 1100px;
+    margin: auto;
 }
 
-#header-img {
+#header-img1 {
     background-color: lightblue;
     height: 100px;
     background-image: url(img/pattern.png);
     /* background-image: url(img/logo.svg); */
     
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+address {
+    padding-bottom: 25px;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+mark {
+    background-color: transparent;
+    color: rgb(98, 190, 221);
+}
+
+#figure-description {
+    font-size: 10px;
 }
 
 /* Lista sistemata, ma non c'è un metodo migliore? */
