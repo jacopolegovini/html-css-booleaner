@@ -8,8 +8,8 @@ body {
     margin: auto;
 }
 
-#header-img1 {
-    /* background-color: rgb(14, 168, 219);
+/* #header-img1 {
+    background-color: rgb(14, 168, 219);
     height: 100px;
     background-image: url(img/pattern.png);
     background-position: center;
@@ -17,19 +17,20 @@ body {
     background-repeat: repeat-x;
     position: relative;
     top: 0;
-    left: 0; */
-}
+    left: 0; 
+} */
 
 #header-img2 {
     background-color: rgb(14, 168, 219);
-    height: 100px;
     background-image: url(img/pattern.png);
     background-position: center;
-    background-size: 35%;
+    background-size: 80%;
     background-repeat: repeat-x;
-    padding: 100px;
-
-    
+    padding: 0px;
+    height: auto; 
+    width: auto; 
+    max-width: 4000px; 
+    max-height: 4000px;
 }
 
 h1 {
@@ -51,6 +52,13 @@ address {
     background-color: transparent;
     color: rgb(98, 190, 221);
 }
+
+#tim-berners-lee {
+    width: 100%; 
+    max-width: 4000px; 
+    max-height: 4000px;
+}
+
 
 #figure-description {
     font-size: 10px;
